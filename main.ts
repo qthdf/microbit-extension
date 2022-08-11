@@ -4,6 +4,7 @@ declare const enum LEDToRead {
     //% block="Infrared" enumval=2
     Infrared = 2,
 }
+
 declare const enum HeartbeatType {
     //% block="BPM" enumval=0
     BPM = 0,
@@ -125,7 +126,7 @@ namespace Microbit {
     }
 
     /**
-    * Reads either the Red or Infrared detection channels
+    * Reads either the Red or Infrared detection channels..
     */
     //% weight=29 
     //% blockId="gatorParticle_color" 
